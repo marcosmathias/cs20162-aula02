@@ -4,21 +4,21 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class ProdutoInteirosTest {
+public class ProdutoInteirosComSomaTest {
 
 	@Test(expected = IllegalArgumentException.class)
 	public void primeiroInvalido() {
-		ProdutoInteiros.soma(0, 5);
+		ProdutoInteirosComSoma.Produto(0, 5);
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
 	public void segundoInvalido(){
-		ProdutoInteiros.soma(5, 0);
+		ProdutoInteirosComSoma.Produto(5, 0);
 	}
 	
 	@Test
 	public void produtoInteiros(){
-		assertEquals(25, ProdutoInteiros.soma(5, 5));
+		assertEquals(25, ProdutoInteirosComSoma.Produto(5, 5));
 	}
 
 }

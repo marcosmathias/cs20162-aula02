@@ -12,8 +12,8 @@ package com.github.kyriosdata.exemplo;
  *
  */
 
-public class ProdutoInteiros {
-	public static int soma(int a, int b){
+public class ProdutoInteirosComSoma {
+	public static int Produto(int a, int b){
 		
 		/**
 	     * Obtém o produto de dois inteiros positivos.
@@ -39,16 +39,17 @@ public class ProdutoInteiros {
 			totalParcelas = b;
 			parcela = a;
 		}
-		
-		int i = 1;
-		int s = 0;
-		
-		while(i<=totalParcelas){
-			s=s+parcela;
-			i=i+1;
+		else{
+			int i = 1;
+			int s = 0;
+			
+			while(i<=totalParcelas){
+				s=s+parcela;
+				i=i+1;
+			}
+			
+			return s;
 		}
-		
-		return s;
 	}
 
 }

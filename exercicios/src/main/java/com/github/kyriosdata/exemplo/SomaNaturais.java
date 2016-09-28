@@ -17,7 +17,7 @@ import java.time.LocalDate;
 public class SomaNaturais {
 	
 	
-	public static int soma(int n){
+	public static int SomaNaturais(int n){
 		
 		/**
 	     * Obtém a soma de uma quantidade de números naturais.
@@ -33,16 +33,17 @@ public class SomaNaturais {
 		
 		if(1>n)
 		throw new IllegalArgumentException("O número deve ser natural");
-		
-		int i=2;
-		int s=1;
-		
-		while (i<=n){
-			s=s+i;
-			i++;
+		else{
+			int i=2;
+			int s=1;
+			
+			while (i<=n){
+				s=s+i;
+				i++;
+			}
+			
+			return s;
 		}
-		
-		return s;
 	}
 }
 

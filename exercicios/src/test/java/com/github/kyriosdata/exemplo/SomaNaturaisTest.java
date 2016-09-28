@@ -8,11 +8,11 @@ public class SomaNaturaisTest {
 
 	@Test(expected = IllegalArgumentException.class)
     public void valorNaoNatural() {
-        SomaNaturais.soma(-2);
+        SomaNaturais.SomaNaturais(-2);
     }
 
     @Test
     public void somaNaturais() {
-    	assertEquals(10, SomaNaturais.soma(4));
+    	assertEquals(10, SomaNaturais.SomaNaturais(4));
     }
 }
