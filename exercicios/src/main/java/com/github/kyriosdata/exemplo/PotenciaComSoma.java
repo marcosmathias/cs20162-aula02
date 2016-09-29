@@ -27,8 +27,8 @@ public class PotenciaComSoma {
 	
 	
 	public static int Potencia(int x, int y){
-		if(x<1 && y<1){
-			throw new IllegalArgumentException("Entrada inválida. Apenas números inteiros são permitidos.");
+		if(x<0 && y<0){
+			throw new IllegalArgumentException("Entrada inválida. Apenas números inteiros positivos são permitidos.");
 		}
 		
 		else

@@ -39,16 +39,17 @@ public class ProdutoInteirosComSoma {
 			totalParcelas = b;
 			parcela = a;
 		}
+		
 		else{
-			int i = 1;
-			int s = 0;
-			
-			while(i<=totalParcelas){
-				s=s+parcela;
-				i=i+1;
-			}
-			
-			return s;
+		int i = 1;
+		int s = 0;
+		
+		while(i<=totalParcelas){
+			s=s+parcela;
+			i=i+1;
+		}
+		
+		return s;
 		}
 	}
 

@@ -5,8 +5,6 @@
 
 package com.github.kyriosdata.exemplo;
 
-import java.time.LocalDate;
-
 /**
  * Implementação do cálculo da soma vários de números naturais.
  *
@@ -17,7 +15,7 @@ import java.time.LocalDate;
 public class SomaNaturais {
 	
 	
-	public static int SomaNaturais(int n){
+	public static int somaNaturais(int n){
 		
 		/**
 	     * Obtém a soma de uma quantidade de números naturais.
@@ -31,7 +29,7 @@ public class SomaNaturais {
 	     */
 		
 		
-		if(1>n)
+		if(n<1)
 		throw new IllegalArgumentException("O número deve ser natural");
 		else{
 			int i=2;
