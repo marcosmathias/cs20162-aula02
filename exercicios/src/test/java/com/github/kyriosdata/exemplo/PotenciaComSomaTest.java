@@ -8,7 +8,14 @@ public class PotenciaComSomaTest {
 
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntrada() {
-		PotenciaComSoma.Potencia(x, y)
+		PotenciaComSoma.Potencia(-1, 6);
 	}
+	
+	@Test
+	public void potenciaComSoma(){
+		assertEquals(16, PotenciaComSoma.Potencia(2, 4));
+	}
+	
+	
 
 }

@@ -27,30 +27,32 @@ public class ProdutoInteirosComSoma {
 	     */
 		
 		if(1>a)
-		throw new IllegalArgumentException("O primeiro número digitado é inválido.");
+			throw new IllegalArgumentException("O primeiro número digitado é inválido.");
 		else if(1>b)
-		throw new IllegalArgumentException("O segundo número digitado é inválido.");
-		
-		
-		int totalParcelas = a;
-		int parcela = b;
-		
-		if(b<a){
-			totalParcelas = b;
-			parcela = a;
-		}
-		
+			throw new IllegalArgumentException("O segundo número digitado é inválido.");
 		else{
-		int i = 1;
-		int s = 0;
 		
-		while(i<=totalParcelas){
-			s=s+parcela;
-			i=i+1;
-		}
-		
-		return s;
+			int totalParcelas = a;
+			int parcela = b;
+			
+			if(b<a){
+				totalParcelas = b;
+				parcela = a;
+			}
+			
+			int i=1;
+			int s=0;
+			
+			
+			
+			while(i<=totalParcelas){
+				s=s+parcela;
+				i=i+1;
+			}
+			
+			return s;
 		}
 	}
-
 }
+
+
