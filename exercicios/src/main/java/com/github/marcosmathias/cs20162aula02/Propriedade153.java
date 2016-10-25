@@ -4,7 +4,7 @@
  */
 
 
-package com.github.kyriosdata.exemplo;
+package com.github.marcosmathias.cs20162aula02;
 
 /**
  * 

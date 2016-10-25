@@ -3,7 +3,7 @@
  * Creative Commons Attribution 4.0 International License.
  */
 
-package com.github.kyriosdata.exemplo;
+package com.github.marcosmathias.cs20162aula02;
 
 /**
  * Implementação do cálculo de uma potência, utilizando somas.

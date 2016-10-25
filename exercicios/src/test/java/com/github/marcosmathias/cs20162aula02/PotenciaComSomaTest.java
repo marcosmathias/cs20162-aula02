@@ -1,8 +1,10 @@
-package com.github.kyriosdata.exemplo;
+package com.github.marcosmathias.cs20162aula02;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.github.marcosmathias.cs20162aula02.PotenciaComSoma;
 
 public class PotenciaComSomaTest {
 
