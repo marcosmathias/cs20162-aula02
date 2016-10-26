@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class MaiorDivisorComumTest {
-	
+		
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntradaSemRecursao() {
 		MaiorDivisorComum.CrivoEratostenes(5, 0);
@@ -34,6 +34,21 @@ public class MaiorDivisorComumTest {
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntradaSubtracao() {
 		MaiorDivisorComum.CrivoEratostenesSubtracoes(5, 0);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaSubtracaoNegativa() {
+		MaiorDivisorComum.CrivoEratostenesSubtracoes(5, -1);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaSubtracaoBMaior() {
+		MaiorDivisorComum.CrivoEratostenesSubtracoes(5, 10);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaSubtracaoNula() {
+		MaiorDivisorComum.CrivoEratostenesSubtracoes(0, 0);
 	}
 	
 	@Test

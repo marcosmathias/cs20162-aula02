@@ -19,6 +19,21 @@ public class Propriedade153Test {
 		Propriedade153.propriedade153(-1);
 	}
 	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaMaior() {
+		Propriedade153.propriedade153(10000);
+	}
+	
+	@Test
+	public void testeEntradaNula() {
+		assertEquals(true, Propriedade153.propriedade153(0));
+	}
+	
+	@Test
+	public void testeEntradaMaxima() {
+		assertEquals(false, Propriedade153.propriedade153(9999));
+	}	
+	
 	@Test
 	public void testePropriedadeTrue() {
 		assertEquals(true, Propriedade153.propriedade153(153));
