@@ -21,9 +21,6 @@
 
     <name>com.github.marcosmathias:cs20162-aula02</name>
 
-    <description>
-        Projeto de referência (exemplo) inicial de desenvolvimento em Java com uso de JUnit.
-    </description>
 
     <url>https://github.com/marcosmathias/cs20162-aula02</url>
 
@@ -179,4 +176,9 @@
         </profile>
     </profiles>
 
+    <description>Exercícios da segunda aula de construção de software.
+
+Universidade Federal de Goiás
+Instituto de Informática
+Semestre 2016-2</description>
 </project>
