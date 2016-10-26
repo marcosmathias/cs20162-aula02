@@ -7,6 +7,11 @@ import org.junit.Test;
 import com.github.marcosmathias.cs20162aula02.SomaNaturais;
 
 public class SomaNaturaisTest {
+	
+	@Test
+	public void testeInstancia() {
+		SomaNaturais instancia = new SomaNaturais();
+	}
 
 	@Test(expected = IllegalArgumentException.class)
     public void valorNaoNatural() {

@@ -10,6 +10,11 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class MaiorDivisorComumTest {
+	
+	@Test
+	public void testeInstancia() {
+		MaiorDivisorComum instancia = new MaiorDivisorComum();
+	}
 		
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntradaSemRecursao() {

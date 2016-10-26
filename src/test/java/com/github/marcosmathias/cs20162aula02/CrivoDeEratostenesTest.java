@@ -13,7 +13,11 @@ public class CrivoDeEratostenesTest {
 	
 	int n;
 	int[] a;
-
+	
+	@Test
+	public void testeInstancia() {
+		CrivoDeEratostenes instancia = new CrivoDeEratostenes();
+	}
 	
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntrada() {

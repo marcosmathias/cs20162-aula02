@@ -11,6 +11,11 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class NumeroPrimoTest {
+	
+	@Test
+	public void testeInstancia() {
+		NumeroPrimo instancia = new NumeroPrimo();
+	}
 
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntrada() {

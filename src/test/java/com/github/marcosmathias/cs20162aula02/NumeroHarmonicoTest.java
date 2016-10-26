@@ -11,6 +11,11 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class NumeroHarmonicoTest {
+	
+	@Test
+	public void testeInstancia() {
+		NumeroHarmonico instancia = new NumeroHarmonico();
+	}
 
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntrada() {

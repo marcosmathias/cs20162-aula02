@@ -7,6 +7,11 @@ import org.junit.Test;
 import com.github.marcosmathias.cs20162aula02.PotenciaComSoma;
 
 public class PotenciaComSomaTest {
+	
+	@Test
+	public void testeInstancia() {
+		PotenciaComSoma instancia = new PotenciaComSoma();
+	}
 
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntradaNegativa() {

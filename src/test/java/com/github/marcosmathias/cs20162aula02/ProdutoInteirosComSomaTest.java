@@ -7,6 +7,11 @@ import org.junit.Test;
 import com.github.marcosmathias.cs20162aula02.ProdutoInteirosComSoma;
 
 public class ProdutoInteirosComSomaTest {
+	
+	@Test
+	public void testeInstancia() {
+		ProdutoInteirosComSoma instancia = new ProdutoInteirosComSoma();
+	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void primeiroInvalido() {

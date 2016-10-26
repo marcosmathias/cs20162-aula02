@@ -13,6 +13,11 @@ import org.junit.Test;
 import com.github.marcosmathias.cs20162aula02.Propriedade3025;
 
 public class Propriedade3025Test {
+	
+	@Test
+	public void testeInstancia() {
+		Propriedade3025 instancia = new Propriedade3025();
+	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void testeEntrada() {

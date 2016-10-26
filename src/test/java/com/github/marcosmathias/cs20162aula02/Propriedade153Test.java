@@ -14,6 +14,11 @@ import com.github.marcosmathias.cs20162aula02.Propriedade153;
 
 public class Propriedade153Test {
 
+	@Test
+	public void testeInstancia() {
+		Propriedade153 instancia = new Propriedade153();
+	}
+	
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntrada() {
 		Propriedade153.propriedade153(-1);
