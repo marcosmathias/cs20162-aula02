@@ -13,7 +13,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class CrivoDeEratostenes {
+public final class CrivoDeEratostenes {
 	
 	/**
      * Verifica se um número é primo ou não, utilizando, para isso, o Crivo de Eratóstenes.
@@ -53,8 +53,6 @@ public class CrivoDeEratostenes {
 		}
 		else
 			throw new IllegalArgumentException("O número a ser verificado é inválido. Entre com um número maior do que 1.");
-		
 			
 	}
-
 }

@@ -9,9 +9,25 @@ import com.github.marcosmathias.cs20162aula02.PotenciaComSoma;
 public class PotenciaComSomaTest {
 
 	@Test(expected=IllegalArgumentException.class)
-	public void testeEntrada() {
+	public void testeEntradaNegativa() {
 		PotenciaComSoma.Potencia(-1, 6);
 	}
+	
+	@Test
+	public void testeEntradaNula() {
+		PotenciaComSoma.Potencia(0, 0);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaNegativa2() {
+		PotenciaComSoma.Potencia(6, -1);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaNegativaAmbos() {
+		PotenciaComSoma.Potencia(-1, -6);
+	}
+	
 	
 	@Test
 	public void potenciaComSoma(){

@@ -12,7 +12,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class PotenciaComSoma {
+public final class PotenciaComSoma {
 
 	/**
      * Obtém a potência de dois inteiros.
@@ -28,7 +28,7 @@ public class PotenciaComSoma {
 	
 	public static int Potencia(int x, int y){
 		
-		if(x < 0 && y < 0){
+		if(x < 0 || y < 0){
 			throw new IllegalArgumentException("Entrada inválida. Apenas números inteiros positivos são permitidos.");
 		}
 		
@@ -46,4 +46,3 @@ public class PotenciaComSoma {
 		}
 	}
 }
-	

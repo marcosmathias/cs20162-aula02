@@ -18,6 +18,22 @@ public class Propriedade3025Test {
 	public void testeEntrada() {
 		Propriedade3025.propriedade3025(-1);
 	}
+	
+	@Test(expected = IllegalArgumentException.class)
+	public void testeEntradaMaior() {
+		Propriedade3025.propriedade3025(10000);
+	}
+	
+	@Test
+	public void testeEntradaNula() {
+		assertEquals(true, Propriedade3025.propriedade3025(0));
+	}
+	
+	@Test
+	public void testeEntradaMaxima() {
+		assertEquals(false, Propriedade3025.propriedade3025(9999));
+	}
+
 
 	@Test
 	public void testePropriedadeTrue(){

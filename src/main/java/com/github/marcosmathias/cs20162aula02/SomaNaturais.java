@@ -12,7 +12,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class SomaNaturais {
+public final class SomaNaturais {
 	
 	
 	public static int somaNaturais(int n){
@@ -44,4 +44,3 @@ public class SomaNaturais {
 		}
 	}
 }
-

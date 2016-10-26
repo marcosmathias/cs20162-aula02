@@ -3,7 +3,6 @@
  * Creative Commons Attribution 4.0 International License.
  */
 
-
 package com.github.marcosmathias.cs20162aula02;
 
 import static org.junit.Assert.assertEquals;
@@ -15,6 +14,21 @@ public class MaiorDivisorComumTest {
 	@Test(expected=IllegalArgumentException.class)
 	public void testeEntradaSemRecursao() {
 		MaiorDivisorComum.CrivoEratostenes(5, 0);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaNegativa() {
+		MaiorDivisorComum.CrivoEratostenes(5, -1);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaBMaior() {
+		MaiorDivisorComum.CrivoEratostenes(5, 10);
+	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	public void testeEntradaNula() {
+		MaiorDivisorComum.CrivoEratostenes(0, 0);
 	}
 	
 	@Test(expected=IllegalArgumentException.class)

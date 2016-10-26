@@ -13,7 +13,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class NumeroHarmonico {
+public final class NumeroHarmonico {
 	
 	/**
      * Verifica qual o número harmônico de ordem n.

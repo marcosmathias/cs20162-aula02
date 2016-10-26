@@ -12,7 +12,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class NumeroPrimo {
+public final class NumeroPrimo {
 	
 	/**
      * Verifica se dado número é primo.

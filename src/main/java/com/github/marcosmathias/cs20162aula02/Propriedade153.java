@@ -14,7 +14,7 @@ package com.github.marcosmathias.cs20162aula02;
  *  
  */
 
-public class Propriedade153 {
+public final class Propriedade153 {
 	public static boolean propriedade153(int n){
 		/**
 		 * Verifica se um número é válido para a propriedade 153.

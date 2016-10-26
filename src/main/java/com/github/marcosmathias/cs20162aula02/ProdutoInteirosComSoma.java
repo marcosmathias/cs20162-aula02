@@ -12,7 +12,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class ProdutoInteirosComSoma {
+public final class ProdutoInteirosComSoma {
 	public static int Produto(int a, int b){
 		
 		/**
@@ -56,5 +56,3 @@ public class ProdutoInteirosComSoma {
 		}
 	}
 }
-
-

@@ -14,7 +14,7 @@ package com.github.marcosmathias.cs20162aula02;
  *
  */
 
-public class MaiorDivisorComum {
+public final class MaiorDivisorComum {
 	
 	/**
      * Verifica o Maior Divisor Comum (MDC) entre dois números, sem utilizar recursão.
@@ -74,7 +74,4 @@ public class MaiorDivisorComum {
 		else
 			throw new IllegalArgumentException("O valor do segundo número (b) é inválido. Digite um valor maior do que 0, e maior do que o primeiro número.");
 	}
-		
 }
-
-
