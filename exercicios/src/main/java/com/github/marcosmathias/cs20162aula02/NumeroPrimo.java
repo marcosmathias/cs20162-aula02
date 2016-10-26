@@ -3,7 +3,6 @@
  * Creative Commons Attribution 4.0 International License.
  */
 
-
 package com.github.marcosmathias.cs20162aula02;
 
 /**
@@ -14,13 +13,26 @@ package com.github.marcosmathias.cs20162aula02;
  */
 
 public class NumeroPrimo {
+	
+	/**
+     * Verifica se dado número é primo.
+     * 
+     * @param n O número a ser verificado.
+     *
+     * @return O resultado dessa verificação. Se true, o número é primo. Se false, o número não é primo.
+
+     * @throws IllegalArgumentException Se o número n for menor ou igual a 1.
+     */
+	
 	public static boolean Primo(int n){
 		int i = 2;
-		while(i<=(n-1)){
+		
+		while(i <= (n - 1)){
 			if(n % i == 0){
 				return false;
 			}
 		}
+		
 		return true;
 	}
 }
