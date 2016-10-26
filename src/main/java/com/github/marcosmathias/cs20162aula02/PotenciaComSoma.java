@@ -27,18 +27,21 @@ public class PotenciaComSoma {
 	
 	
 	public static int Potencia(int x, int y){
-		if(x<0 && y<0){
+		
+		if(x < 0 && y < 0){
 			throw new IllegalArgumentException("Entrada inválida. Apenas números inteiros positivos são permitidos.");
 		}
 		
 		else
 		{
-			int potencia=1;
-			int i=1;
-			while(i<=y){
-				potencia=ProdutoInteirosComSoma.Produto(potencia, x);
+			int potencia = 1;
+			int i = 1;
+			
+			while(i <= y){
+				potencia = ProdutoInteirosComSoma.Produto(potencia, x);
 				i++;
 			}
+			
 			return potencia;
 		}
 	}

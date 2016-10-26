@@ -19,7 +19,7 @@ public class CrivoDeEratostenes {
      * Verifica se um número é primo ou não, utilizando, para isso, o Crivo de Eratóstenes.
      * 
      * @param a[] O vetor que será utilizado para indicar quais números são primos, e quais não são.
-     * @param y O número que se deseja verificar.
+     * @param n O número que se deseja verificar.
      *
      * @return O resultado da verificação.
 

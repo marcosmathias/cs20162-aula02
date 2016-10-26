@@ -20,7 +20,7 @@ public class MaiorDivisorComum {
      * Verifica o Maior Divisor Comum (MDC) entre dois números, sem utilizar recursão.
      * 
      * @param a O primeiro número a se verificar.
-     * @param y O segundo número a se verificar.
+     * @param b O segundo número a se verificar.
      *
      * @return O Maior Divisor Comum entre esses dois números.
 
@@ -49,7 +49,7 @@ public class MaiorDivisorComum {
      * Verifica o Maior Divisor Comum (MDC) entre dois números, utilizando somente subtrações.
      * 
      * @param a O primeiro número a se verificar.
-     * @param y O segundo número a se verificar.
+     * @param b O segundo número a se verificar.
      *
      * @return O Maior Divisor Comum entre esses dois números.
 

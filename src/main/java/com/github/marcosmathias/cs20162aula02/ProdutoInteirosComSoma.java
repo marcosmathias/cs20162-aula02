@@ -28,8 +28,10 @@ public class ProdutoInteirosComSoma {
 		
 		if(1>a)
 			throw new IllegalArgumentException("O primeiro número digitado é inválido.");
+		
 		else if(1>b)
 			throw new IllegalArgumentException("O segundo número digitado é inválido.");
+		
 		else{
 		
 			int totalParcelas = a;
